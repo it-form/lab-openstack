@@ -21,7 +21,7 @@ jobs:
       - x64
     steps:
       - run: |
-        echo "Runner OK"
-        hostname
-        whoami
-        uname -a
+          echo "Runner OK"
+          hostname
+          whoami
+          uname -a
