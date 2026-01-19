@@ -13,3 +13,15 @@ jobs:
       - x64
     steps:
       - run: echo "Test de fonctionnement du Runner !"
+jobs:
+  test-runner:
+    runs-on:
+      - self-hosted
+      - linux
+      - x64
+    steps:
+      - run: |
+        echo "Runner OK"
+        hostname
+        whoami
+        uname -a
